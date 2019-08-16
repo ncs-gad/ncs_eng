@@ -159,7 +159,7 @@ img.emoji {
 </form>&nbsp;
 
 </div>
-<script src="../../../cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
 <div id="download_table" class="container"></div>
 <script>
 	var table = d3.select("#download_table").append("table");
@@ -215,9 +215,7 @@ img.emoji {
 		.property("selected","*");//default selection
 
     });
-  </script>
 
-<script>
 
 function myFilter2() {
   // Declare variables
@@ -230,14 +228,20 @@ function myFilter2() {
   tr = table.getElementsByTagName("tr");
 
   // Loop through all table rows, and hide those who don't match the search query
-  for (i = 0; i < tr.length; i++) { td0 = tr[i].getElementsByTagName("td")[0]; td1 = tr[i].getElementsByTagName("td")[1]; if (td0) { txtValue0 = td0.textContent || td0.innerText; txtValue1 = td1.textContent || td1.innerText; //txtValue0 = txtValue0.toUpperCase().indexOf(filter0); //txtValue1 = txtValue1.toUpperCase().indexOf(filter1); txtValue0 = txtValue0.indexOf(filter0); txtValue1 = txtValue1.indexOf(filter1); if ((txtValue0 > -1)&&(txtValue1 > -1)) {
+  for (i = 0; i < tr.length; i++) { td0 = tr[i].getElementsByTagName("td")[0]; td1 = tr[i].getElementsByTagName("td")[1]; if (td0) { txtValue0 = td0.textContent || td0.innerText; txtValue1 = td1.textContent || td1.innerText; 
+  //txtValue0 = txtValue0.toUpperCase().indexOf(filter0); 
+  //txtValue1 = txtValue1.toUpperCase().indexOf(filter1); 
+  txtValue0 = txtValue0.indexOf(filter0); 
+  txtValue1 = txtValue1.indexOf(filter1); 
+  if ((txtValue0 > -1)&&(txtValue1 > -1)) {
         tr[i].style.display = "";
       } else {
         tr[i].style.display = "none";
       }
     }
   }
-}
+  };
+
 </script></div>
 				</div>
 				</div>
