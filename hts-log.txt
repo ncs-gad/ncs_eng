@@ -1,0 +1,22 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 16 Aug 2019 14:32:00 at http://localhost/wordpress/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qiC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://localhost/wordpress/ -O1 "C:\My Web Sites\ncs_eng" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+14:32:04	Error: 	"Method Not Allowed" (405) at link localhost/wordpress/xmlrpc.php (from localhost/wordpress/)
+14:32:23	Warning: 	Moved Permanently for localhost/wordpress/?p=5
+14:32:23	Warning: 	File has moved from localhost/wordpress/?p=5 to http://localhost/wordpress/about-national-coding-system/
+14:32:23	Warning: 	Moved Permanently for localhost/wordpress/?p=65
+14:32:23	Warning: 	File has moved from localhost/wordpress/?p=65 to http://localhost/wordpress/downloads/
+14:32:23	Warning: 	Moved Permanently for localhost/wordpress/?p=114
+14:32:23	Warning: 	File has moved from localhost/wordpress/?p=114 to http://localhost/wordpress/ncs-guidelines/
+14:32:23	Warning: 	Moved Permanently for localhost/wordpress/?p=80
+14:32:23	Warning: 	File has moved from localhost/wordpress/?p=80 to http://localhost/wordpress/desktop-tools/
+14:32:23	Warning: 	Moved Permanently for localhost/wordpress/?p=52
+14:32:23	Warning: 	File has moved from localhost/wordpress/?p=52 to http://localhost/wordpress/faqs/
+
+HTTrack Website Copier/3.49-2 mirror complete in 23 seconds : 71 links scanned, 64 files written (1925578 bytes overall), 8 files updated [236956 bytes received at 10302 bytes/sec], 3.9 requests per connection
+(1 errors, 10 warnings, 0 messages)
